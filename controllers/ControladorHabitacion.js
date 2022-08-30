@@ -46,7 +46,7 @@ export class ControladorHabitacion{
     }
 
     //agregar habitacion
-    agregarHabitacion(request,response){
+    async agregarHabitacion(request,response){
         let cuerpo=request.body
         //llamo al servicio habitacion 
         let servicioHabitacion=new ServicioHabitacion()
