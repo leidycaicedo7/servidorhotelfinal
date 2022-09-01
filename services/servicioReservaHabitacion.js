@@ -1,4 +1,4 @@
-import{modeloReserva}from '../models/modeloDatosReserva'
+import{modeloReserva}from '../models/modeloDatosReserva.js'
 
  export class ServicioReserva{
    constructor(){}
