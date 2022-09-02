@@ -20,7 +20,7 @@ import{modeloReserva}from '../models/modeloDatosReserva.js'
    }
 
    async  eliminar(id){
-    return modeloReserva.findByIAdAndUpdate(id)
+    return modeloReserva.findByIAdAndDelete(id)
    }
 
 

@@ -6,7 +6,7 @@ import mongoose from "mongoose"
 export async function conectar(){
     try{
         await mongoose.connect(process.env.DATABASE);
-
+        console.log("exito conectandonos con bd")
     }catch(error){
 
         console.log("Upsss"+error)

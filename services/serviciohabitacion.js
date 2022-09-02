@@ -16,7 +16,7 @@ import{modeloHabitacion}from '../models/modeloDatosHabitacion.js'
 
    }
    async  actualizar(id,datos){
-    return modeloHabitacion.findByIAdAndUpdate(id,datos)
+    return modeloHabitacion.findByIdAndUpdate(id,datos)
    }
 
 
